@@ -3,14 +3,14 @@
 var path = require('path');
 var helpers = require('yeoman-generator').test;
 
-describe('wakanda-extension generator', function () {
+describe('wakanda-widget generator', function () {
   beforeEach(function (done) {
     helpers.testDirectory(path.join(__dirname, 'temp'), function (err) {
       if (err) {
         return done(err);
       }
 
-      this.app = helpers.createGenerator('wakanda-extension:app', [
+      this.app = helpers.createGenerator('wakanda-widget:app', [
         '../../app'
       ]);
       done();

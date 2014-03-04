@@ -1,14 +1,18 @@
 {
-  "name": "generator-wakanda-extension",
-  "version": "0.0.1",
+  "name": "generator-wakanda-widget",
+  "version": "0.1.0",
   "description": "Yeoman generator",
   "license": "MIT",
   "main": "app/index.js",
-  "repository": "midrissi/generator-wakanda-extension",
+  "repository": "midrissi/generator-wakanda-widget",
   "author": {
     "name": "IDRISSI Mohamed",
     "email": "mohamed1987idrissi@gmail.com",
     "url": "https://github.com/midrissi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/midrissi/generator-wakanda-widget.git"
   },
   "engines": {
     "node": ">=0.10.0"

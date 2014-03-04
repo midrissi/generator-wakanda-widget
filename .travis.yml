@@ -3,5 +3,5 @@ node_js:
   - '0.10'
 before_install:
   - currentfolder=${PWD##*/}
-  - if [ "$currentfolder" != 'generator-wakanda-extension' ]; then cd .. && eval "mv $currentfolder generator-wakanda-extension" && cd generator-wakanda-extension; fi
+  - if [ "$currentfolder" != 'generator-wakanda-widget' ]; then cd .. && eval "mv $currentfolder generator-wakanda-widget" && cd generator-wakanda-widget; fi
 

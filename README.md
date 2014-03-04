@@ -1,4 +1,4 @@
-# generator-wakanda-extension [![Build Status](https://secure.travis-ci.org/midrissi/generator-wakanda-extension.png?branch=master)](https://travis-ci.org/midrissi/generator-wakanda-extension)
+# generator-wakanda-widget [![Build Status](https://secure.travis-ci.org/midrissi/generator-wakanda-widget.png?branch=master)](https://travis-ci.org/midrissi/generator-wakanda-widget)
 
 > [Yeoman](http://yeoman.io) generator
 
@@ -23,16 +23,16 @@ $ npm install -g yo
 
 Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.
 
-To install generator-wakanda-extension from npm, run:
+To install generator-wakanda-widget from npm, run:
 
 ```
-$ npm install -g generator-wakanda-extension
+$ npm install -g generator-wakanda-widget
 ```
 
 Finally, initiate the generator:
 
 ```
-$ yo wakanda-extension
+$ yo wakanda-widget
 ```
 
 ### Getting To Know Yeoman
