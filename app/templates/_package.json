@@ -1,0 +1,23 @@
+{
+    "name": "{{name}}",
+    "studioName": "{{name}}",
+    "category": "{{category}}",
+    "iconPath": "/icons/widget.png",
+    "author": "{{author}}",
+    "contributors": [],
+    "version": "1.0.0",
+    "copyright": "(c) 2014 Widget Developer",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/developer/Widget.git"
+    },
+    "keywords": ["wakanda", "widget"],
+    "engines": {"wakanda": ">= 8"},
+    "license": "MIT",
+    "loadDependencies": [
+        {"id": "Widget_V2"},
+        {"id": "{{name}}/widget.js", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "{{name}}/css/widget.css", "version": "1.0.0", "path": "WIDGETS_CUSTOM"},
+        {"id": "{{name}}/designer.js", "studioOnly": true, "version": "1.0.0", "path": "WIDGETS_CUSTOM"}
+    ]
+}
