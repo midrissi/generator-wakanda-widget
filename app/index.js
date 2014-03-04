@@ -30,7 +30,7 @@ var WakandaExtensionGenerator = yeoman.generators.Base.extend({
       default: this.appname
     },{
       name: 'category',
-      message: 'In whitch category you want to include your widget?',
+      message: 'In which category you want to include your widget?',
       default: 'Custom Widgets'
     },{
       name: 'author',
