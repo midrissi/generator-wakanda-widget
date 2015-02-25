@@ -27,7 +27,7 @@
   ],
   "dependencies": {
     "yeoman-generator": "~0.16.0",
-    "chalk": "~0.4.0",
+    "chalk": "~1.0.0",
     "handlebars": "~2.0.0-alpha.1",
     "underscore": "~1.6.0",
     "pretty-data": "~0.40.0"
