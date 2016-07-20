@@ -10,6 +10,8 @@ function capitalize (string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 };
 
+// just a test
+
 var WakandaExtensionGenerator = yeoman.generators.Base.extend({
   init: function () {
     this.pkg = require('../package.json');
